@@ -1,8 +1,7 @@
 // TODO: answer here
 import React, { useEffect, useState } from "react";
-import { Container, Center, Select, SimpleGrid, Text } from "@chakra-ui/react";
+import { Container, Center, Select, SimpleGrid } from "@chakra-ui/react";
 import Card from "./Cards";
-import { Link } from "react-router-dom";
 
 function Home() {
   // TODO: answer here
@@ -17,7 +16,7 @@ function Home() {
       .then((json) => {
         setData(json.data);
       })
-      .catch((error) => {
+      .catch(() => {
         setError(error);
       })
       .finally(() => {

@@ -1,6 +1,6 @@
 // TODO: answer here
 import React from "react";
-import {Box, Text, Image, Center, Heading} from "@chakra-ui/react"
+import {Box, Image, Center, Heading} from "@chakra-ui/react"
 import {Link} from "react-router-dom"
 
 function Card({ card }) {
